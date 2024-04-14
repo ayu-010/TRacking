@@ -13,7 +13,7 @@ const Home = () => {
         <div className='w-full md:w-1/2 mt-12 md:mt-32 order-2 md:order-1'>
           <div className='space-y-12'>
             <h1 className='text-4xl font-bold'>
-              Hello welocomes to "spy" over your
+              Hello welcome to "track"  your
              
               <div>
  
@@ -25,7 +25,7 @@ const Home = () => {
       1000,
       'EXPENSES',
       1000,
-      'TRACKING',
+      'SAVING',
       1000,
       // '',
       // 500,
@@ -48,7 +48,7 @@ const Home = () => {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn btn-secondary mt-6">Secondary</button>
+          <button className="btn btn-secondary mt-6">MORE</button>
         </div>
         <div className='w-full md:w-1/2 order-1 mt-24 ml-4'>
           <img src={track1} width={"500px"} height={"200px"} alt="Track 1"></img>
